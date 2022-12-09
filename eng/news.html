@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+<html>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico">
+<title>Новости - AnkoBot</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h1 { 
+    font-size: 35px; 
+    font-family: 'Lato', sans-serif; 
+    color: #000000; 
+   }
+  p { 
+    font-size: 20px; 
+    font-family: 'Lato', sans-serif; 
+    color: #000000; 
+   }
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+  <body style="background-image: url(back.png); background-repeat: repeat" >
+ </body>
+<body>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Меню</span>
+  <h1><center>Обновления бота</center></h1>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="about.html">О Нас</a>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=1045441501825609779&permissions=0&scope=bot%20applications.commands">Добавить на сервер</a>
+    <a href="https://discord.gg/DyYPnWg9kc">Наш сервер</a>
+    <a href="kontakt.html">Контакт</a>
+    <a href="index.html">Главная</a>
+  </div>
+</div>
+
+<p></p>
+  <h2><center>Update 0.5</center></h2>
+    <h3><center>Changes</center></h3>
+      <p><center>Shop added</center></p>
+       <p><center>Added exclusive item</center></p>
+         <p><center>update date 11/26/22</center></p>
+  <br>
+  <br>
+  <br>
+  <h2><center>Update 0.4</center></h2>
+    <h3><center>Added new commands</center></h3>
+      <p><center>anko!promo (promo code) - activate the promo code (will appear in the #news channel in the discord)</center></p>
+       <p><center>anko!btcsell - sell bitcoins and receive mango-coins</center></p>
+         <p><center>anko!adminpanel - admin panel (only for admins)</center></p>
+           <p><center>update date 11/26/22</center></p>
+  <br>
+  <br>
+  <br>
+    <h2><center>Update 0.3</center></h2>
+    <h3><center>Economy added</center></h3>
+      <p><center>anko!daily - daily bonus (mango-coins)</center></p>
+        <p><center>anko!mine - now gives bitcoins (separate currency)</center></p>
+          <h3><center>Added new commands</center></h3>
+            <p><center>anko!profile - your profile</center></p>
+              <p><center>anko!checkprofile @tag - view someone's profile</center></p>
+               <p><center>anko!bio - description</center></p>
+                 <h3><center>Added new game commands</center></h3>
+                   <p><center>anko!akelacase - open Akela's case</center></p>
+                     <p><center>anko!taverncase - open a tavern case</center></p>
+                       <p><center>anko!ankocase - Anka's case</center></p>
+                        <p><center>update date 11/26/22</center></p>
+  <br>
+  <br>
+  <br>
+  <h2><center>Update 0.2</center></h2>
+    <h3><center>Added new game commands</center></h3>
+      <p><center>anko!mine - Mine Mango-Coins</center></p>
+        <p><center>update date 11/25/22</center></p>
+  <br>
+  <br>
+  <br>
+  <h2><center>Update 0.1</center></h2>
+   <h3><center>Added new rp commands</center></h3>
+     <p><center>anko!kill - "Kill" the Member</center></p>
+       <p><center>anko!kiss - "Kiss" the Member</center></p>
+         <p><center>anko!argh - "Yell" at the participant</center></p>
+           <p><center>anko!cry - "Cry"</center></p>
+             <p><center>anko!laugh - "Laugh"</center></p>
+               <h3><center>Added new game commands</center></h3>
+                <p><center>anko!duel - "Duel" with a participant</center></p>
+                  <p><center>update date 11/25/22</center></p>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
